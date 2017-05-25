@@ -1,0 +1,11 @@
+[Unit]
+Description=This is a template Unit file
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/path/to/your/app
+User=someUser
+
+[Install]
+WantedBy=multi-user.target
