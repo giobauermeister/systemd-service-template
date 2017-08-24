@@ -10,7 +10,7 @@ Instructions
 
 4 - Move the Unit file to lib subdirectory
 
-	mv template.service /lib/systemd/system/your-unit-file.service
+	sudo mv template.service /lib/systemd/system/your-unit-file.service
 
 5 - Enable and start your service
 
